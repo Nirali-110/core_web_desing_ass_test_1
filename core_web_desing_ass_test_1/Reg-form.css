@@ -1,0 +1,88 @@
+/* General styling for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container that holds the form */
+.container {
+    width: 100%;
+    margin: 5% auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the heading */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* General form group styling */
+.form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Label styling */
+label {
+    width: 30%;
+    font-size: 16px;
+    color: #333;
+    margin-right: 10px; /* Space between label and input */
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+textarea {
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Textarea field for address */
+textarea {
+    height: 100px;
+    resize: vertical; /* Allow vertical resize */
+}
+
+/* Gender Radio Buttons */
+.form-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Placeholder text styling */
+input::placeholder,
+textarea::placeholder {
+    font-style: italic;
+    color: #888;
+}
+
+/* Button styling */
+button {
+    width: 20%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+button:hover {
+    background-color: #45a049;
+}
